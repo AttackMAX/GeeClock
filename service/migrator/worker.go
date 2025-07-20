@@ -5,15 +5,15 @@ import (
 	"sync"
 	"time"
 
-	mconf "github.com/xiaoxuxiansheng/xtimer/common/conf"
-	"github.com/xiaoxuxiansheng/xtimer/common/consts"
-	"github.com/xiaoxuxiansheng/xtimer/common/utils"
-	taskdao "github.com/xiaoxuxiansheng/xtimer/dao/task"
-	timerdao "github.com/xiaoxuxiansheng/xtimer/dao/timer"
-	"github.com/xiaoxuxiansheng/xtimer/pkg/cron"
-	"github.com/xiaoxuxiansheng/xtimer/pkg/log"
-	"github.com/xiaoxuxiansheng/xtimer/pkg/pool"
-	"github.com/xiaoxuxiansheng/xtimer/pkg/redis"
+	mconf "github.com/AttackMAX/GeeClock/common/conf"
+	"github.com/AttackMAX/GeeClock/common/consts"
+	"github.com/AttackMAX/GeeClock/common/utils"
+	taskdao "github.com/AttackMAX/GeeClock/dao/task"
+	timerdao "github.com/AttackMAX/GeeClock/dao/timer"
+	"github.com/AttackMAX/GeeClock/pkg/cron"
+	"github.com/AttackMAX/GeeClock/pkg/log"
+	"github.com/AttackMAX/GeeClock/pkg/pool"
+	"github.com/AttackMAX/GeeClock/pkg/redis"
 )
 
 type Worker struct {

@@ -3,8 +3,8 @@ package webserver
 import (
 	"context"
 
-	"github.com/xiaoxuxiansheng/xtimer/common/model/vo"
-	dao "github.com/xiaoxuxiansheng/xtimer/dao/task"
+	"github.com/AttackMAX/GeeClock/common/model/vo"
+	dao "github.com/AttackMAX/GeeClock/dao/task"
 )
 
 type TaskService struct {

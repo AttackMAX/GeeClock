@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/xiaoxuxiansheng/xtimer/common/model/vo"
-	service "github.com/xiaoxuxiansheng/xtimer/service/webserver"
+	"github.com/AttackMAX/GeeClock/common/model/vo"
+	service "github.com/AttackMAX/GeeClock/service/webserver"
 
 	"github.com/gin-gonic/gin"
 )

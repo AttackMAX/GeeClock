@@ -5,8 +5,8 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/xiaoxuxiansheng/xtimer/common/consts"
-	"github.com/xiaoxuxiansheng/xtimer/common/model/po"
+	"github.com/AttackMAX/GeeClock/common/consts"
+	"github.com/AttackMAX/GeeClock/common/model/po"
 )
 
 type GetAppTimersReq struct {

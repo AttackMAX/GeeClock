@@ -8,14 +8,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/xiaoxuxiansheng/xtimer/common/consts"
-	"github.com/xiaoxuxiansheng/xtimer/common/model/vo"
-	"github.com/xiaoxuxiansheng/xtimer/common/utils"
-	taskdao "github.com/xiaoxuxiansheng/xtimer/dao/task"
-	"github.com/xiaoxuxiansheng/xtimer/pkg/bloom"
-	"github.com/xiaoxuxiansheng/xtimer/pkg/log"
-	"github.com/xiaoxuxiansheng/xtimer/pkg/promethus"
-	"github.com/xiaoxuxiansheng/xtimer/pkg/xhttp"
+	"github.com/AttackMAX/GeeClock/common/consts"
+	"github.com/AttackMAX/GeeClock/common/model/vo"
+	"github.com/AttackMAX/GeeClock/common/utils"
+	taskdao "github.com/AttackMAX/GeeClock/dao/task"
+	"github.com/AttackMAX/GeeClock/pkg/bloom"
+	"github.com/AttackMAX/GeeClock/pkg/log"
+	"github.com/AttackMAX/GeeClock/pkg/promethus"
+	"github.com/AttackMAX/GeeClock/pkg/xhttp"
 )
 
 type Worker struct {

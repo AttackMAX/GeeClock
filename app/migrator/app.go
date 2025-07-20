@@ -4,8 +4,8 @@ import (
 	"context"
 	"sync"
 
-	"github.com/xiaoxuxiansheng/xtimer/pkg/log"
-	service "github.com/xiaoxuxiansheng/xtimer/service/migrator"
+	"github.com/AttackMAX/GeeClock/pkg/log"
+	service "github.com/AttackMAX/GeeClock/service/migrator"
 )
 
 // 定期从 timer 表中加载一系列 task 记录添加到 task 表中

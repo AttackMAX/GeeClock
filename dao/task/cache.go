@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/xiaoxuxiansheng/xtimer/common/conf"
-	"github.com/xiaoxuxiansheng/xtimer/common/consts"
-	"github.com/xiaoxuxiansheng/xtimer/common/model/po"
-	"github.com/xiaoxuxiansheng/xtimer/common/utils"
-	"github.com/xiaoxuxiansheng/xtimer/pkg/redis"
+	"github.com/AttackMAX/GeeClock/common/conf"
+	"github.com/AttackMAX/GeeClock/common/consts"
+	"github.com/AttackMAX/GeeClock/common/model/po"
+	"github.com/AttackMAX/GeeClock/common/utils"
+	"github.com/AttackMAX/GeeClock/pkg/redis"
 )
 
 type TaskCache struct {

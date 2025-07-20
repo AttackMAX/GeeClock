@@ -4,8 +4,8 @@ import (
 	"context"
 	"sync"
 
-	"github.com/xiaoxuxiansheng/xtimer/pkg/log"
-	service "github.com/xiaoxuxiansheng/xtimer/service/monitor"
+	"github.com/AttackMAX/GeeClock/pkg/log"
+	service "github.com/AttackMAX/GeeClock/service/monitor"
 )
 
 type MonitorApp struct {

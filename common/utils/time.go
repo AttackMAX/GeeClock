@@ -3,7 +3,7 @@ package utils
 import (
 	"time"
 
-	"github.com/xiaoxuxiansheng/xtimer/common/consts"
+	"github.com/AttackMAX/GeeClock/common/consts"
 )
 
 func GetStartMinute(timeStr string) (time.Time, error) {

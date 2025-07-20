@@ -7,14 +7,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/xiaoxuxiansheng/xtimer/common/conf"
-	"github.com/xiaoxuxiansheng/xtimer/common/model/vo"
-	"github.com/xiaoxuxiansheng/xtimer/common/utils"
-	"github.com/xiaoxuxiansheng/xtimer/pkg/concurrency"
-	"github.com/xiaoxuxiansheng/xtimer/pkg/log"
-	"github.com/xiaoxuxiansheng/xtimer/pkg/pool"
-	"github.com/xiaoxuxiansheng/xtimer/pkg/redis"
-	"github.com/xiaoxuxiansheng/xtimer/service/executor"
+	"github.com/AttackMAX/GeeClock/common/conf"
+	"github.com/AttackMAX/GeeClock/common/model/vo"
+	"github.com/AttackMAX/GeeClock/common/utils"
+	"github.com/AttackMAX/GeeClock/pkg/concurrency"
+	"github.com/AttackMAX/GeeClock/pkg/log"
+	"github.com/AttackMAX/GeeClock/pkg/pool"
+	"github.com/AttackMAX/GeeClock/pkg/redis"
+	"github.com/AttackMAX/GeeClock/service/executor"
 )
 
 type Worker struct {

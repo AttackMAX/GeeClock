@@ -4,12 +4,12 @@ import (
 	"context"
 	"time"
 
-	"github.com/xiaoxuxiansheng/xtimer/common/conf"
-	"github.com/xiaoxuxiansheng/xtimer/common/consts"
-	"github.com/xiaoxuxiansheng/xtimer/common/model/po"
-	"github.com/xiaoxuxiansheng/xtimer/common/model/vo"
-	taskdao "github.com/xiaoxuxiansheng/xtimer/dao/task"
-	timerdao "github.com/xiaoxuxiansheng/xtimer/dao/timer"
+	"github.com/AttackMAX/GeeClock/common/conf"
+	"github.com/AttackMAX/GeeClock/common/consts"
+	"github.com/AttackMAX/GeeClock/common/model/po"
+	"github.com/AttackMAX/GeeClock/common/model/vo"
+	taskdao "github.com/AttackMAX/GeeClock/dao/task"
+	timerdao "github.com/AttackMAX/GeeClock/dao/timer"
 )
 
 type TimerService struct {

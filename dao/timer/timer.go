@@ -3,9 +3,9 @@ package timer
 import (
 	"context"
 
-	"github.com/xiaoxuxiansheng/xtimer/common/model/po"
-	"github.com/xiaoxuxiansheng/xtimer/pkg/log"
-	"github.com/xiaoxuxiansheng/xtimer/pkg/mysql"
+	"github.com/AttackMAX/GeeClock/common/model/po"
+	"github.com/AttackMAX/GeeClock/pkg/log"
+	"github.com/AttackMAX/GeeClock/pkg/mysql"
 
 	"gorm.io/gorm"
 )

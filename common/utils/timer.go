@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/xiaoxuxiansheng/xtimer/common/consts"
+	"github.com/AttackMAX/GeeClock/common/consts"
 )
 
 func UnionTimerIDUnix(timeID uint, unix int64) string {

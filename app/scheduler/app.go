@@ -4,9 +4,9 @@ import (
 	"context"
 	"sync"
 
-	"github.com/xiaoxuxiansheng/xtimer/common/conf"
-	"github.com/xiaoxuxiansheng/xtimer/pkg/log"
-	service "github.com/xiaoxuxiansheng/xtimer/service/scheduler"
+	"github.com/AttackMAX/GeeClock/common/conf"
+	"github.com/AttackMAX/GeeClock/pkg/log"
+	service "github.com/AttackMAX/GeeClock/service/scheduler"
 )
 
 // 读取配置启动多个协程进行

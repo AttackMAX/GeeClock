@@ -5,8 +5,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/xiaoxuxiansheng/xtimer/common/conf"
-	"github.com/xiaoxuxiansheng/xtimer/pkg/log"
+	"github.com/AttackMAX/GeeClock/common/conf"
+	"github.com/AttackMAX/GeeClock/pkg/log"
 
 	"github.com/gomodule/redigo/redis"
 )

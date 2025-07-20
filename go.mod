@@ -1,4 +1,4 @@
-module github.com/xiaoxuxiansheng/xtimer
+module github.com/AttackMAX/GeeClock
 
 go 1.18
 

@@ -3,7 +3,7 @@ package po
 import (
 	"time"
 
-	"github.com/xiaoxuxiansheng/xtimer/common/consts"
+	"github.com/AttackMAX/GeeClock/common/consts"
 
 	"gorm.io/gorm"
 )

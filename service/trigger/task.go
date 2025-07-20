@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	"github.com/xiaoxuxiansheng/xtimer/common/consts"
-	"github.com/xiaoxuxiansheng/xtimer/common/model/po"
-	"github.com/xiaoxuxiansheng/xtimer/common/model/vo"
-	dao "github.com/xiaoxuxiansheng/xtimer/dao/task"
+	"github.com/AttackMAX/GeeClock/common/consts"
+	"github.com/AttackMAX/GeeClock/common/model/po"
+	"github.com/AttackMAX/GeeClock/common/model/vo"
+	dao "github.com/AttackMAX/GeeClock/dao/task"
 )
 
 type TaskService struct {

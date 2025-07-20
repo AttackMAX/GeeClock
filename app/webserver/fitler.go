@@ -3,7 +3,7 @@ package webserver
 import (
 	"net/http"
 
-	"github.com/xiaoxuxiansheng/xtimer/common/model/vo"
+	"github.com/AttackMAX/GeeClock/common/model/vo"
 
 	"github.com/gin-gonic/gin"
 )

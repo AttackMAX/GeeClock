@@ -8,7 +8,7 @@ import (
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	gs "github.com/swaggo/gin-swagger"
 	"github.com/swaggo/gin-swagger/swaggerFiles"
-	"github.com/xiaoxuxiansheng/xtimer/common/conf"
+	"github.com/AttackMAX/GeeClock/common/conf"
 )
 
 type Server struct {

@@ -4,12 +4,12 @@ import (
 	"context"
 	"time"
 
-	"github.com/xiaoxuxiansheng/xtimer/common/conf"
-	"github.com/xiaoxuxiansheng/xtimer/common/utils"
-	"github.com/xiaoxuxiansheng/xtimer/pkg/log"
-	"github.com/xiaoxuxiansheng/xtimer/pkg/pool"
-	"github.com/xiaoxuxiansheng/xtimer/pkg/redis"
-	"github.com/xiaoxuxiansheng/xtimer/service/trigger"
+	"github.com/AttackMAX/GeeClock/common/conf"
+	"github.com/AttackMAX/GeeClock/common/utils"
+	"github.com/AttackMAX/GeeClock/pkg/log"
+	"github.com/AttackMAX/GeeClock/pkg/pool"
+	"github.com/AttackMAX/GeeClock/pkg/redis"
+	"github.com/AttackMAX/GeeClock/service/trigger"
 )
 
 type Worker struct {

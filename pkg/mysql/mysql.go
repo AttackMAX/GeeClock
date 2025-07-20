@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/xiaoxuxiansheng/xtimer/common/conf"
+	"github.com/AttackMAX/GeeClock/common/conf"
 
 	mysql2 "github.com/go-sql-driver/mysql"
 	"gorm.io/driver/mysql"
