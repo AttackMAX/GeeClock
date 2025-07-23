@@ -4,8 +4,8 @@ import (
 	"context"
 	"errors"
 
-	"github.com/gomodule/redigo/redis"
 	"github.com/AttackMAX/GeeClock/common/utils"
+	"github.com/gomodule/redigo/redis"
 )
 
 const ftimerLockKeyPrefix = "FTIMER_LOCK_PREFIX_"

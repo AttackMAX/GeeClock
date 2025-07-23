@@ -2,6 +2,7 @@ package migrator
 
 import (
 	"context"
+	"github.com/AttackMAX/GeeClock/common/conf"
 	"sync"
 
 	"github.com/AttackMAX/GeeClock/pkg/log"
@@ -11,14 +12,16 @@ import (
 // 定期从 timer 表中加载一系列 task 记录添加到 task 表中
 type MigratorApp struct {
 	sync.Once
-	ctx    context.Context
-	stop   func()
-	worker *service.Worker
+	ctx            context.Context
+	stop           func()
+	worker         *service.Worker
+	configProvider *conf.MigratorAppConfProvider
 }
 
-func NewMigratorApp(worker *service.Worker) *MigratorApp {
+func NewMigratorApp(worker *service.Worker, configProvider *conf.MigratorAppConfProvider) *MigratorApp {
 	m := MigratorApp{
-		worker: worker,
+		worker:         worker,
+		configProvider: configProvider,
 	}
 
 	m.ctx, m.stop = context.WithCancel(context.Background())
